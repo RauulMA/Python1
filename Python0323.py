@@ -1,36 +1,18 @@
-def calcular_acrescentacao_min(atual, acrescentar):
-    Min_Final = atual + acrescentar%60
-    Hora_Final = Min_Final // 60
+# def verificar_valor_positivo(mensagem):
+#     while True:
+#         try
+#         if valor <= 0:
+#             valor = float(mensagem)
+#             continue
 
-    Texto_Final = Formatar_horario(Hora_Final, Min_Final)
 
-    return Texto_Final
+# def main():
+#     min_atual = verificar_valor_positivo(input("Digite a quantidade de minutos a acrescentar: "))
+#     min_acresc = verificar_valor_positivo(input("Digite a quantidade de minutos a acrescentar: "))
 
-def Formatar_horario(hora, minuto):
-    if hora >= 1:
-        Texto = print(f"{hora}h{minuto}min")
-    else:
-        Texto = print(f"{minuto}min")
-    return Texto
+#     Min_final = calcular_acrescentacao_min(min_atual, min_acresc)
 
-def pedir_dados(mensagem):
-    while True:
-        valor = int(mensagem)
-        try:
-            if valor <= 0:
-                minuto_atual = float(input("Digite o minuto de agora: "))
-                minutos_acrescentados = float(input("Digite a quantidade de minutos a acrescentar: "))
-            continue
-        except AttributeError:
-            print("Digite um valor correto.")
+#     calcular_acrescentacao_min()
 
-def main():
-    min_atual = pedir_dados(input("Digite a quantidade de minutos a acrescentar: "))
-    min_acresc = pedir_dados(input("Digite a quantidade de minutos a acrescentar: "))
-
-    Min_final = calcular_acrescentacao_min(min_atual, min_acresc)
-
-    calcular_acrescentacao_min()
-
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

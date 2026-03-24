@@ -1,0 +1,14 @@
+função essecial:
+linar,
+quadrática (saber cálcular todos os macetes),
+polinomiais (outro nível: saber cálcular todos os macetes)
+função recíproca -> a = -2; 1/a = -0,5
+domínios de raízes;
+Função racional = poli./poli.
+ESTUDAR trigonométricas TUDO;
+Função exponencial (x^2) <> função de potência (2^x)
+ESTUDAR GRÁFICOS Excel, método mínimo quadrados é bom; R^2 o máimo é 1 (melhor); cuidado com overfit,
+
+o ideal é escolher um modelo que melhor represente os dados pelo maior modelo genérico possível;
+
+Entender MatPlot e Pandas;
